@@ -1,7 +1,10 @@
 .main-container{
   margin-top: 100px;
-  margin-left: 200px;
-  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 20px 10px 20px;
+  width: 550px;
+  background-color: rgb(255, 250, 244);
 }
 
 .main-container h3{
@@ -24,6 +27,16 @@
   list-style-type: none;
 }
 
+
+@media (max-width: 600px) {
+  .main-container{
+    margin-top: 0px;
+    margin-left: 0%;
+    width: 100%;
+    background-color: rgb(255, 250, 244);
+  }
+
+}
 /* html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
