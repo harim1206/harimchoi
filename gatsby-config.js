@@ -1,8 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Harim Choi',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`,
+      }
+    },
+
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-remark',
     {
@@ -13,4 +20,5 @@ module.exports = {
       }
     }
   ]
+
 }
