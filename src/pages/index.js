@@ -1,21 +1,22 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Collapsible from 'react-collapsible';
+import resume from '../../assets/resume.pdf'
 
 
 
 export default () => (
   <div className="body">
     <div className="main-container">
-      <h3>Harim Choi</h3>
+      <h3>HARIM CHOI</h3>
 
-      <Collapsible trigger="About" className="collapsible">
+      <Collapsible trigger="About">
         <div className="collapsible__div">
-          Hi, I&#39;m Harim (ha-Rim) Choi. You can also call me Harry. I&#39;m a web developer living in Brooklyn, and my primary interests are code, music, and digital design. In my spare time, I collect vinyl records like my life depends on it.
+          Hi, I&#39;m Harim (ha-Rim) Choi. I&#39;m a web developer living in Brooklyn, and my primary interests are code, music, and digital design. In my spare time, I collect vinyl records like my life depends on it.
         </div>
       </Collapsible>
 
-      <Collapsible trigger="Projects" className="collapsible">
+      <Collapsible trigger="Projects">
         <div className="collapsible__div">
           <a href="https://thirtythreefourtyfive.herokuapp.com" target="_blank">33/45</a> | <a href="https://github.com/harim1206/3345frontend"  target="_blank"> github </a>
         </div>
@@ -24,7 +25,7 @@ export default () => (
         </div>
       </Collapsible>
 
-      <Collapsible trigger="Vinyl Mixes" className="collapsible">
+      <Collapsible trigger="Vinyl Mixes">
         <div className="collapsible__div">
           <a href="https://www.mixcloud.com/HARIM/outro-tempo-w-harry-c-june-23-2017/"  target="_blank">
               Outro Tempo #3 on Stewart Avenue Radio
@@ -38,7 +39,7 @@ export default () => (
         </div>
       </Collapsible>
 
-      <Collapsible trigger="Contact" className="collapsible">
+      <Collapsible trigger="Contact">
         <div className="collapsible__div">
           <a href="https://www.linkedin.com/in/harimchoi" target="_blank">
             linkedin
@@ -46,6 +47,7 @@ export default () => (
           <a href="https://www.github.com/harim1206" target="_blank">
             github
           </a><br/>
+          <a href={resume}>resume</a><br/>
           <a href="mailto:harim1206@gmail.com">harim1206@gmail.com</a>
 
         </div>
