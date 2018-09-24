@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Collapsible from 'react-collapsible';
 import resume from '../../assets/resume.pdf'
+import harim2 from '../../assets/harim2.jpg'
 
 
 
@@ -11,6 +12,7 @@ export default () => (
       <h3>HARIM CHOI</h3>
 
       <Collapsible trigger="About">
+        <img src={harim2}/>
         <div className="collapsible__div">
           Hi, I&#39;m Harim (ha-Rim) Choi. I&#39;m a web developer living in Brooklyn, and my primary interests are code, music, and digital design. In my spare time, I collect vinyl records like my life depends on it.
         </div>
