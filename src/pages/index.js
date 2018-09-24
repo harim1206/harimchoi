@@ -21,7 +21,7 @@ export default () => (
           <a href="https://thirtythreefourtyfive.herokuapp.com" target="_blank">33/45</a> | <a href="https://github.com/harim1206/3345frontend"  target="_blank"> github </a>
         </div>
         <div className="collapsible__div">
-          <a href="https://www.youtube.com/watch?v=a_i91eIElwk" target="_blank">mu-z-art</a> | <a href="https://github.com/harim1206/mu-z-art"  target="_blank"> github </a>
+          <a href="https://muzart.herokuapp.com" target="_blank">mu-z-art</a> | <a href="https://github.com/harim1206/mu-z-art"  target="_blank"> github </a>
         </div>
       </Collapsible>
 

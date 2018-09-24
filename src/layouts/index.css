@@ -47,6 +47,8 @@
     background-color: white;
   }
 
+}@supports condition {
+
 }
 /* html {
   font-family: sans-serif;
